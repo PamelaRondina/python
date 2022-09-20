@@ -28,8 +28,8 @@ ___________
 ### 03_concatenacao.py
 
 ```python
-inicio = 'Hola' #não possui espaço
-inicio2 = 'Hola ' #possui espaço
+inicio = 'Hola' #no tiene espacio
+inicio2 = 'Hola ' #tiene espacio
 final = 'mundo'
 
 print(inicio + final)
@@ -49,11 +49,11 @@ ____
 
 ```python
 lista = [1, 2, 3]
-lista2 = lista.copy() #uma cópia da variável lista
+lista2 = lista.copy() #una cópia de la variable lista
 
-lista.append(4) #adicionar item
+lista.append(4) #añadir 
 
-#lista.clear() #limpar uma lista
+#lista.clear() #limpiar una lista
 
 print(lista, lista2)
 ```
@@ -71,17 +71,15 @@ lista.append(4)
 
 print(lista, lista2)
 
-#conta quantos elementos específico existem
-#elemento destacado dentro dos (3)
+#cuenta cuantos elementos específicos hay, resaltado dentro del (3)
 print(lista.count(3), lista2.count(3))
 
-#conta quantos elementos possuem a lista
+#cuenta cuantos elementos hay en la lista
 print(len(lista), len(lista2))
 ```
 Terminal
 [1, 2, 3, 4] [1, 2, 3]
-1 1 (quantidade de números 3 em ambas as listas)
-4 3 (quantidade de itens da lista = 4 e lista2 = 3)
-
+1 1 (la cantidad de 3 en ambas listas)
+4 3 (la cantidad de elementos de la lista = 4 y lista2 = 3)
 ________
 
