@@ -2,7 +2,7 @@
 
 ## [Comandos Python](https://github.com/PamelaRondina/step-by-step/tree/main/python)
 
-- [Python: Desafío Latam](ATUALIZARLINK)
+- [Python: Desafío Latam](https://github.com/PamelaRondina/python/tree/main/python_desafio_latam    )
 
 - [Python: Sin Froteras](https://github.com/PamelaRondina/python/tree/main/python_sin_fronteras)
 
