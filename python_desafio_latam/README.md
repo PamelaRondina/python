@@ -222,39 +222,54 @@ if codigo == "1234":
 
 Veamos un ejemplo lineal primero.
 
-Code | Imagem | Condición
-:-:|:-:|-
- | 
+```python
+print("Inicio del programa")
+print("Instrucción 1")
+print("Instrucción")
+print("Instrucción")
+```
+
  ```mermaid
-graph TD;
+graph TD
     A[Inicio do Programa]
-    A-->B[Instrucción 1];
+    A-->B[Instrucción 1]
     B-->C[Instrucción 2]
     C-->D[Instrucción 3]
     D-->E[Fin del Programa]
 ```
-| 
 
-![alt text](image-3.png) | ![alt text](image-4.png) | ![alt text](image-5.png)
-
-![alt text](image-6.png)
-
-
+```python
+numero = 10
+if numero > 5:
+    print("El número es mayor que 5")    
+```
 
 ```mermaid
 graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+A[Inicio] -->B(Asignar el valor 10 a la variable 'numero')
+    B --> C{El numero es mayor que 5?}
+    C -->|Sí| D[Mostrar 'El número es mayor que 5']
+    D --> E[Fin]
+    C -->|No| E    
 ```
 
-TESTE MARKDOWN!
+**Ejercicio**
+Implementa el siguiente código a partir de un diagrama de flujo.
 
-texto 1 | texto 2
--|-
+```mermaid
+graph TD
+    A[Inicio]
+    A-->B(Asignar el texto 'hola' a la variable 'saludo')
+    B-->C{El saludo es igual a 'hola'?}
+    C-->|Sí| D[Mostrar 'Es el saludo correcto']
+    D --> E[Fin]
+    C-->|No|E
+```
+
 ```python
-edad = 18
-if edad >= 18: 
-    print("Eres mayor de edad")
-``` | Item 2
+# Escribe tu código aquí: el código está correcto.
+saludo = 'hola'
+if saludo == 'hola':
+    print('Es el saludo correcto')
+# Fin
+```
