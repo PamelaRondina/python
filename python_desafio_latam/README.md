@@ -257,7 +257,7 @@ A[Inicio] -->B(Asignar el valor 10 a la variable 'numero')
 Implementa el siguiente código a partir de un diagrama de flujo.
 
 ```mermaid
-graph TD
+graph LR
     A[Inicio]
     A-->B(Asignar el texto 'hola' a la variable 'saludo')
     B-->C{El saludo es igual a 'hola'?}
@@ -273,3 +273,100 @@ if saludo == 'hola':
     print('Es el saludo correcto')
 # Fin
 ```
+
+### 06: Indentando con espacios
+
+**Ejercicio**
+Modifica el siguiente código para que funcione.
+
+```python
+codigo = "1234" 
+if codigo == "1234": 
+  print("Código correcto")
+    print("Segundo mensaje") # Modifica esta línea: con espacio a más
+```
+
+### 07: Salundando a Alex
+
+**Ejercicio**
+Se ha diseñado un programa en Python con la intención de imprimir un mensaje de bienvenida a los usuarios cuyo nombre coincide con "Alex".
+
+Sin embargo, tras realizar algunas modificaciones en el código, el programa ha dejado de funcionar correctamente y ya no muestra el mensaje de bienvenida adecuado. Corrige el error en el siguiente código para que funcione correctamente.
+
+```python
+nombreUsuario = "Juan" # Modifica esta línea: modificar para Alex
+if nombreUsuario == "Alex":
+  print("Bienvenido, Alex");
+```
+
+### 08: Bloques de código
+
+> Un bloque es un conjunto de instrucciones que se ejecutan juntas, se delimitan pela identación
+
+```python
+if condición:
+  # Conjunto de instrucciones si la condición se cumple
+else:
+  # Conjunto de instrucciones si la condición no se cumple
+```
+
+**Ejercicio**
+El programador que escribió este código no dejó los prints dentro del bloque if por lo que el código no funciona como debería. ¿Puedes corregirlo?
+
+```python
+# Escribe tu código aquí 
+formulario = "incompleto";
+if formulario == "completo":
+    print("Formulario completo");
+    print("Enviando email"); 
+print("Este mensaje debe aparecer siempre"); 
+# Fin
+```
+
+### 09: Ejercicio de bloque
+
+**Ejercicio**
+Un programador está desarrollando un videojuego y ha escrito el siguiente código para que, cuando la puerta esté abierta, se muestre un mensaje. Sin embargo, el programa no está funcionando correctamente. ¿Puedes corregirlo dejando el mensaje respectivo dentro del bloque donde sea necesario?
+
+```python
+# Escribe tu código aquí
+puerta = "cerrada"
+if puerta == "abierta":
+  print("Detrás de la puerta hay un tesoro")
+print("Dentro del tesoro hay 50 monedas de oro") #TAB aqui!
+print("Este mensaje debe aparecer siempre independientemente de si la puerta está abierta o cerrada")
+# Fin
+```
+
+## Funciones
+
+### 01: Introducción a funciones
+
+> Son definidas y llamadas a lo largo del programa. Son bloques de código que nos permiten reutilizar y estructurar nuestro código de una manera más organizada.
+
+~~~python
+# Definimos la función 
+
+def saludar():
+  print("Hola Mundo")
+
+saludar() # Llamamos a la función
+saludar() # Llamamos a la función una segunda vez
+saludar() # Llamamos a la función una tercera vez
+~~~
+
+Ejercicio
+Se tiene definida la función `despedir`, pero no se está llamando. Llama a la función despedir para que imprima "Adiós Mundo" en la consola.
+
+~~~python
+def despedir():
+  print("Adiós Mundo") 
+  #llamar la función
+despedir()
+
+# Fin
+~~~
+
+### 02: Creando una función
+
+
