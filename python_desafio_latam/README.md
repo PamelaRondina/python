@@ -1,10 +1,12 @@
 # Python - Desafio Latam
 
-[Python Interactivo](https://sqlinteractivo.desafiolatam.com/cursos);
+[Python Interactivo](https://sqlinteractivo.desafiolatam.com/cursos).
 
-## Hola Mundo
 
-### 01: Hola Mundo
+<details><summary>01: Hola Mundo</h2></summary>
+
+
+### 01.01: Hola Mundo
 
 > La primera frase de un programa!
 
@@ -12,7 +14,7 @@
 print("hola mundo")
 ```
 
-### 02: Comentários
+### 01.02: Comentários
 
 > Son ignorados a la hora de ejecutar el programa
 
@@ -21,13 +23,13 @@ Comandos | Python
 .# | Comentário de linha
 ' ' ' | Comentário de textos (docstring)
 
-### 03: Operaciones Matemáticas 
+### 01.03: Operaciones Matemáticas 
 
 ```python
 print(2 + 2) # Mostrará 4 (sin " ")
 ```
 
-### 04: Variables
+### 01.04: Variables
 
 > Cajas donde podemos guardar y modificar información durante la ejecución del programa.
 
@@ -47,7 +49,7 @@ print(manzanas + naranjas + peras); # Modifica esta línea
 #Resultado 20
 ```
 
-### 05: Modificando Variables
+### 01.05: Modificando Variables
 
 > La información de la caja puede modificarse al almavenar un nuevo dato
 
@@ -74,7 +76,7 @@ print(manzanas + naranjas + peras)
 # Resultado 12
 ```
 
-### 06: Variables vs Texto
+### 01.06: Variables vs Texto
 
 ```python
 print("hola") # Aquí se muestra el texto hola.
@@ -90,7 +92,7 @@ a = "Hola Mundo"
 print(a); # Apagué los "  " que estaban dentro de la a.
 ```
 
-### 07: Reglas de identificadores
+### 01.07: Reglas de identificadores
 
 * Los identificadores son nombres (nombres de las variables)
 
@@ -110,7 +112,7 @@ print(hola23)
 print(hola_mundo)
 ```
 
-### 08: Introducción a tipos de datos
+### 01.08: Introducción a tipos de datos
 
 *Ejercicio*
 Modifica el valor asignado a la variable a para que el resultado sea el número 4.
@@ -120,9 +122,12 @@ a = 2;  # Modifica esta línea: estaba "2".
 b = 2;
 print(a + b);
 ```
-## Comparaciones y flujo
 
-### 01: Comparaciones de Igualdad
+</details>
+
+<details><summary> 02: Comparaciones y flujo </summary>
+ 
+### 02.01: Comparaciones de Igualdad
 
 > operador de igualdad ==
 
@@ -151,7 +156,7 @@ calcetinesDerechos = 17
 print(calcetinesDerechos == calcetinesIzquierdos) # Modifica esta línea: resultado False.
 ```
 
-### 02: Comparaciones de mayor y menor
+### 02.02: Comparaciones de mayor y menor
 
 > `>` maior y `<` menor
 
@@ -165,7 +170,7 @@ c = a > b  # Modifica esta línea: estaba `c = a < b`
 print("a es mayor que b: " + str(c))
 ```
 
-### 03: Otros tipos de comparadores
+### 02.03: Otros tipos de comparadores
 
 Operador | Tipo de comparación|	Ejemplo|	Resultado
 -|-|-|-
@@ -188,7 +193,7 @@ me_alcanza = dinero == costo # Modifica esta línea: añadido las ==
 print(me_alcanza)
 ```
 
-### 04: Introducción a flujo
+### 02.04: Introducción a flujo
 
 > El orden en el que se ejecutam las instrucciones 
 
@@ -214,7 +219,7 @@ if codigo == "1234":
   print("Código correcto")
 ```
 
-### 05: Introducción a diagramas de flujo
+### 02.05: Introducción a diagramas de flujo
 
 > La ordem en que se ejecutan el programam, de arriba hasta abajo.
 
@@ -274,7 +279,7 @@ if saludo == 'hola':
 # Fin
 ```
 
-### 06: Indentando con espacios
+### 02.06: Indentando con espacios
 
 **Ejercicio**
 Modifica el siguiente código para que funcione.
@@ -286,7 +291,7 @@ if codigo == "1234":
     print("Segundo mensaje") # Modifica esta línea: con espacio a más
 ```
 
-### 07: Salundando a Alex
+### 02.07: Salundando a Alex
 
 **Ejercicio**
 Se ha diseñado un programa en Python con la intención de imprimir un mensaje de bienvenida a los usuarios cuyo nombre coincide con "Alex".
@@ -299,7 +304,7 @@ if nombreUsuario == "Alex":
   print("Bienvenido, Alex");
 ```
 
-### 08: Bloques de código
+### 02.08: Bloques de código
 
 > Un bloque es un conjunto de instrucciones que se ejecutan juntas, se delimitan pela identación
 
@@ -323,7 +328,7 @@ print("Este mensaje debe aparecer siempre");
 # Fin
 ```
 
-### 09: Ejercicio de bloque
+### 02.09: Ejercicio de bloque
 
 **Ejercicio**
 Un programador está desarrollando un videojuego y ha escrito el siguiente código para que, cuando la puerta esté abierta, se muestre un mensaje. Sin embargo, el programa no está funcionando correctamente. ¿Puedes corregirlo dejando el mensaje respectivo dentro del bloque donde sea necesario?
@@ -338,9 +343,12 @@ print("Este mensaje debe aparecer siempre independientemente de si la puerta est
 # Fin
 ```
 
-## Funciones
+</details>
 
-### 01: Introducción a funciones
+<details>
+<summary>03. Funciones</summary>
+
+### 03.01: Introducción a funciones
 
 > Son definidas y llamadas a lo largo del programa. Son bloques de código que nos permiten reutilizar y estructurar nuestro código de una manera más organizada.
 
@@ -367,6 +375,6 @@ despedir()
 # Fin
 ~~~
 
-### 02: Creando una función
+### 03.02: Creando una función
 
-
+</details>
